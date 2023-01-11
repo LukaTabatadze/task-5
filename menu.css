@@ -1,0 +1,65 @@
+body{margin: 0;
+;}
+h1,h3,b,p{
+    margin: 0;
+    font-family: Inter;
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf) format("ttf");
+}
+
+p{font-size: 12px;
+line-height: 14.52px;
+font-weight: 500;}
+
+h1{font-weight: 700;
+font-size: 20px;
+line-height: 24.2px;
+}
+
+h3{font-weight: 700;
+    font-size: 12px;
+line-height: 14.52px;
+}
+
+b{font-size: 12px;
+    line-height: 14.52px;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./font/Inter-VariableFont_slnt\,wght.ttf) format("ttf");   
+}
+
+.first{  
+    align-items: center;
+    display:flex;
+    justify-content: center;
+
+}
+.second{
+   
+    display:flex;
+    justify-content: center;
+    margin: 29px auto 0;
+    gap: 20px;
+    align-items: flex-start;   
+}
+.third > div{
+align-self: flex-start;
+}
+.third{
+    width: 392px;
+    display:flex;
+    justify-content: space-between;
+    margin: 29px auto 0; 
+    border-top: 1px solid #E9E9E9;
+    padding-top: 29px;
+    align-items: flex-start;
+
+}
+.third > div>div{
+    padding-top: 20px;
+}
+.third > div>div >p{
+    margin-bottom: 8px;
+}
